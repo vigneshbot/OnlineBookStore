@@ -1,0 +1,194 @@
+#bgstore 
+{
+	background-image: url(bookstore.jpg) ;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+	width:100%;
+			
+}
+
+#bgstorelogo
+{   
+	width: 200px;
+	float: left;
+	background-image:url(logoback.jpg);
+	padding:10px 10px 14.5px 20px;
+	margin:-10px;
+}
+			
+ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+li 
+{
+	float: left;
+	margin:30px 30px;
+	font-weight: bold;
+	font-size:20px;
+		
+}
+
+li a, .dropbtn 
+{
+	display: block;
+	color: #ffca85;
+	font-weight:normal;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+			
+}
+
+li a:hover, .dropdown:hover .dropbtn 
+{
+	background-color: white;
+	border-radius:30px;
+	opacity:0.5; 	
+	color:black;
+				
+}
+
+li.dropdown 
+{
+	display: block;
+}
+
+.dropdown-content 
+{
+	display: none;
+	position: absolute;
+	background-color: #ffca85;
+	box-shadow: 0px 8px 16px 0px rgb(0,0,0,1.5);
+	z-index: 1;
+		
+}
+
+.dropdown-content a 
+{
+	color: black;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
+	
+}	
+
+.dropdown-content a:hover 
+{
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+			
+#topmain 
+{
+	background-image:url(topmain.jpg);
+	background-repeat:repeat;
+	border-style:solid;
+	height:100px;
+	margin:-10px;		
+	padding:10px;
+}
+		
+.slidingstuff
+{
+	padding:15px 10px 0px 10px;
+	margin:10px -1px;
+	background-color:black;
+	margin-left:27px;
+	margin-right:27px;
+	border-radius:15px;
+	color:white;
+	font-family:Papyrus;
+}
+
+.books:hover 
+{
+	opacity: 0.8;
+	
+}
+			
+/* Create columns that floats next to each other */
+.column {
+	float: left;
+	width: 11.11%;
+	padding: 25px;
+				
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column2{
+	
+	float:right;
+	width:72%;
+	padding:10px;
+}
+
+.column3{
+	float:left;
+	width:100%;
+	padding-left:30px;
+}
+			
+.vertical-menu {
+	width: 200px;
+}
+
+.vertical-menu a {
+	color: black;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	font-family:Impact;
+	border-radius:10px;
+}
+
+.vertical-menu a:hover {
+	background-color: #ccc;
+	color:crimson;
+}
+
+.vertical-menu a.active {
+	background-color: grey;
+	color: white;
+}
+			
+#booksinline{
+	display:inline;
+}
+
+#time{
+	float:right;
+	color:#ffca85;
+	font-family:Papyrus;
+	margin:0px 10px;
+}
+	
+.bookname{
+	background-color:grey;
+	color:white;
+	padding:5px 5px 5px 5px;
+	margin-top:0px;
+	width:110%;
+	border-radius:20px;
+	font-family:sans-serif;
+	text-align:center;
+}
