@@ -1,4 +1,4 @@
-# IWP_Project Online Book Store
+# CSE3002 (Internet and Web Programming) Online Book Store
 Internet and Web Programming (IWP) Project 
 
 The aim of this project is to create an Online Book Store that facilities users to review books and if interested, purchase books from the amazon.com website using the corresponding link provided. Login is required to access the website and its features.
