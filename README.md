@@ -4,4 +4,32 @@ The aim of this project is to create an Online Book Store that facilities users 
 
 ## Screenshots
 
+1. Login Page
+
 ![Login Page](/IMAGES/onlinebookstore/loginpage.jpg)
+
+2. Home Page
+
+![Home Page](/IMAGES/onlinebookstore/mainhomepage.jpg)
+
+3. Book Details Page
+
+![Book Details Page](/IMAGES/onlinebookstore/bookdetailspage.jpg)
+
+4. User Reviews
+
+![User Reviews](/IMAGES/onlinebookstore/reviews.jpg)
+
+5. Contact Page
+
+![Contact Page](/IMAGES/onlinebookstore/contactpage.jpg)
+
+6. Search by Book Name
+
+![Search Page](/IMAGES/onlinebookstore/searchbybookname.jpg)
+
+7. Search by Category
+
+![Categories Page](/IMAGES/onlinebookstore/categoriespage.jpg)
+
+
